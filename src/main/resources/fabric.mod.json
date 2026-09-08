@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "mcoptimizer",
+  "version": "${version}",
+  "name": "MC Optimizer",
+  "description": "Opens an in-game panel to quickly apply performance presets for render distance, particles, shadows and more.",
+  "authors": ["YourNameHere"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/mcoptimizer"
+  },
+  "license": "MIT",
+  "icon": "assets/mcoptimizer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.mcoptimizer.McOptimizerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.21 <=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
