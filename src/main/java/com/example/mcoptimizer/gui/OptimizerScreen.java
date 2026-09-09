@@ -68,7 +68,7 @@ public class OptimizerScreen extends Screen {
         options.getParticles().setValue(particles[tier]);
         options.getEntityShadows().setValue(entityShadows[tier]);
         options.getMipmapLevels().setValue(mipmap[tier]);
-        options.getCloudRenderModeValue().setValue(clouds[tier]);
+        options.getCloudRenderMode().setValue(clouds[tier]);
 
         options.write();
         this.client.setScreen(parent);
